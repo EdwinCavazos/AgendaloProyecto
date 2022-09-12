@@ -1,0 +1,260 @@
+/* * BACKGROUND DEGRADADO */
+body{
+  background: #4568DC;
+    background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
+    background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+
+}
+/* * BACKGROUND DEGRADADO */
+
+/* *NAVBAR */
+
+.carrito{
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 40px;
+  padding-left: 10px;
+}
+.desplegable{
+  background-color: #297bf5;
+}
+.desplegableTexto{
+  font-weight: bold;
+}
+.desplegableTexto:hover{ 
+  background-color: #47CDFC;
+}
+
+/* *NAVBAR END */
+
+
+
+
+.miniaturas {
+  max-width: 100%;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+
+
+.carousel-inner {
+  border-radius: 10px;
+  /* background-color: rgb(0, 123, 246); */
+  overflow: hidden;
+
+}
+
+.Carrusel{
+  box-shadow: 0 10px 10px 5px rgba(11, 24, 124, 0.5);
+  border-radius: 10px;
+}
+
+
+
+.patrocinados {
+  
+    letter-spacing: 0.1em;
+   
+    color: rgb(255, 255, 255); 
+}
+
+.parrafitos {
+  
+  letter-spacing: 0.01em;
+
+  color: rgb(255, 255, 255); 
+  
+}
+
+.container.tarjetas {
+  padding: 3%;
+}
+
+
+main > .container{
+    padding: 15px;
+}
+
+.col{
+  max-width: 75%;
+}
+
+
+
+.container-flex.p-{
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 30px;
+}  
+
+.product-item.card.h-100
+{
+  border-radius: 15px;
+}
+
+.card.h-100{
+  background-color: rgba(255, 255, 255, 0.845);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+}  
+
+.miniaturas {
+  border-radius: 16px;
+  width: 95%;
+  align-self: center;
+  margin-top: 7px;
+}
+
+.card-title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+.card-text{
+  color: black;
+  text-align: center;
+}
+
+.box {
+  font-stretch: expanded; 
+  background-color: rgba(255, 255, 255, 0.94) ;
+  border-radius:5px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-left:  42%;
+  padding-right: 42%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  
+  
+} 
+
+ .separadorListaTiendas {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+} 
+
+
+  
+.mapa {
+  top: none;
+}
+  
+/* .text-center{
+  font-weight: bold;
+} */
+
+.w-100.p-3.bg-primary.text-white, .w-100.p-3.bg-info.text-white
+{
+  border-radius: 15px;
+}
+/* .card.h-100.shadow-sm.p-2{
+  border-radius: 50px
+}
+
+.miniaturas{
+  border-radius: 45px;
+} */
+
+
+/* ======================FILTROS CATEGORY */
+
+.products-list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products-list .product-item{
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 20px 1px rgba(14, 1, 255, 0.547);
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-self: flex-start;
+
+  transition: all .4s;
+}
+
+.category_list{
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.listaTiendas{
+  background-color: #000000;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.894);
+
+}
+
+.categoriasBarra{
+  background-color:  #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.894);
+}
+
+/* .col-lg-auto.col-sm-2.col-xs-1.botonx{
+  
+  
+} */
+
+.mapaAsociados{
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.50);
+}
+
+.mapaGoogleFrame{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.textoAladoMapa{
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%; 
+  margin-left: 12px;
+  margin-right: 12px ;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
