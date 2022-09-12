@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <title>Navbar</title>
+</head>
+
+
+<body>
+
+  <!--  -->
+  <!-- Inicio de Navbar -->
+  <!--  -->
+  <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
+    <div class="container-fluid">
+
+      <!-- Icono -->
+      <a class="navbar-brand" href="#">
+        <img src="https://i.ibb.co/31N9MKk/Picsart-22-08-17-12-26-56-920.png " alt="logo" height="30">
+        <span></span>
+      </a>
+
+      <!-- Boton del menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Elementos del menu colapsable -->
+
+      <div class="colapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Categorias</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="dropdown-item"><a href="#"></a>Estetica</li>
+              <li class="dropdown-item"><a href="#"></a>Nutriologos</li>
+              <li class="dropdown-item"><a href="#"></a>Dentista</li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Afiliate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contactanos</a>
+          </li>
+        </ul>
+        <hr class="text-white-25">
+
+      </div>
+
+    </div>
+  </nav>
+  <!--  -->
+  <!-- Fin de Navbar -->
+  <!--  -->
+
+  <!--  -->
+  <!-- Inicio Carousel -->
+  <!--  -->
+
+  <div class="container-fluid col-11" id="fondoredondo">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          style="background-color: #a9ccfd" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          style="background-color:#a9ccfd" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          style="background-color:#a9ccfd" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="#"><img src="/assets/img/barberia.jpg" class="d-block w-100" alt="Barberia"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-muted">First slide label</h5>
+            <p class="text-muted">Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="/assets/img/dentista.jpg" class="d-block w-100" alt="Dentista"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-muted">Second slide label</h5>
+            <p class="text-muted">Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="#"><img src="/assets/img/nutriologo.jpg" class="d-block w-100" alt="nutriologo"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-muted">Third slide label</h5>
+            <p class="text-muted">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--  -->
+  <!-- Fin de Carousel -->
+  <!--  -->
+
+
+
+  <!--  -->
+  <!-- Inicio categorias -->
+  <!--  -->
+  <section>
+    <br>
+    <div class="container">
+      <h2>
+        <center>Categorias</center>
+      </h2>
+      <div class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselCategorias" class="carousel-inner">
+          <div id="carouselCategorias" class="carousel-item active">
+            <img src="/assets/img/barberia.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div id="carouselCategorias" class="carousel-item">
+            <img src="/assets/img/dentista.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div id="carouselCategorias" class="carousel-item">
+            <img src="/assets/img/nutriologo.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+  <!-- Fin categorias -->
+  <!--  -->
+
+
+  <!--  -->
+  <!-- Inicio Locales -->
+  <!--  -->
+  <section>
+    <br>
+    <div class="container">
+      <h2>
+        <center>Locales</center>
+      </h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="/assets/img/barberia.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Barberia new style</h5>
+              <p class="card-text">Si buscas un nuevo estilo con un servicio de calidad no busques mas</p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="/assets/img/dentista.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Sonrisa perfecta</h5>
+              <p class="card-text">Clinica dental integral para toda la familia.</p>
+              <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="/assets/img/nutriologo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">No mas kilos</h5>
+              <p class="card-text">Clinica integral enfocada en que logres tus metas</p>
+              <a href="#" class="btn btn-primary">Ver</a>
+
+  </section>
+  <br><br>
+  <!--  -->
+  <!-- Fin Locales -->
+  <!--  -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
