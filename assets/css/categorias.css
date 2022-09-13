@@ -7,6 +7,20 @@ body{
 }
 /* * BACKGROUND DEGRADADO */
 
+/* body {
+  background-image:url("/assets/imgs/backgrounds/business-doodle-set-hand-drawn-infographics-icons-office-finance-strategy-and-others-illustration-isolated-on-white-background-vector.jpg");
+  background-position: center center;
+  background-size: no-repeat;
+  background-size:cover;
+  background-color: rgba(255, 255, 255, 0.3);
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  font-family: "Montserrat", sans-serif;
+} */
+
+
+
 /* *NAVBAR */
 
 .carrito{
@@ -212,7 +226,7 @@ main > .container{
 }
 
 .categoriasBarra{
-  background-color:  #ffffff;
+  background-color:  rgba(255, 255, 255, 0.057);
   padding-top: 7px;
   padding-bottom: 7px;
   margin-left: 1px;
@@ -241,7 +255,7 @@ main > .container{
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
   margin-bottom: 25px;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .textoAladoMapa{
@@ -254,7 +268,11 @@ main > .container{
   margin-left: 12px;
   margin-right: 12px ;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
-  margin-top: 25px;
+  margin-top: 15px;
   margin-bottom: 25px;
 }
 
+.col-lg-1.col-md-1.col-sm-1.col-xs-1.category_item.btn.btn-md.btn-light.btn-outline-dark.Uno{
+  space-between: 10px;
+
+}
