@@ -1,0 +1,129 @@
+
+.parrafo{
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    border-radius: 10px !important;
+}
+.card-body{
+    border-radius: 10px !important;
+}
+.boton{
+    border: 0px;
+}
+.imagen1{
+    width: 350px;
+    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    -webkit-transition:all .2s ease;
+
+}
+.imagen1:hover{
+    -webkit-transform:scale(1.2);
+}
+.imagenAfiliate{
+    width: 250px;
+}
+.alinea{
+    vertical-align: text-bottom; 
+}
+.fondoIconos{
+    background-color: #fafafa !important;
+    box-shadow: 15px 15px 15px 15px rgba(1, 1, 1, 0.151);
+    border-radius: 10px;
+}
+.botonAfiliate{
+    background-color: #47E2FF;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition:all .2s ease;
+
+}
+.botonAfiliate2{
+    background-color: #6ea0fd;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition:all .2s ease;
+
+}
+.botonAfiliate2:hover{
+    background-color:  #0846bb;
+    -webkit-transform:scale(1.1);
+    font-weight: bold;
+}
+.botonAfiliate:hover{
+    background-color: #00b2d1;
+    -webkit-transform:scale(1.1);
+    font-weight: bold;
+}
+.texto{
+    font-size: 40px;
+    color: black !important;
+}
+.texto2{
+    font-size: 20px;
+    color: rgb(2, 2, 2) !important;
+}
+.card{
+    background-color: #47CDFC;
+    border-radius: 30px !important;
+    border: 2px solid black;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.card2{
+    background-color: #4986FB !important;
+}
+.side-bar{
+    right: 0px !important;
+    left: auto !important;
+}
+.texto3{
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+font-weight: bold;
+color: black;
+padding-top: 30px;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif !important; 
+    font-weight: bold;
+    color: black;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px !important;
+}
+.card-title{
+font-weight: bold;
+font-size: 25px !important;
+}
+.card-1{
+    padding-bottom: 40px !important;
+}
+.carrito{
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+.desplegable{
+    background-color: #297bf5;
+}
+.desplegableTexto{
+    font-weight: bold;
+}
+.desplegableTexto:hover{
+    background-color: #47CDFC;
+}
+body {
+    background: #4568DC;
+    background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
+    background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+}
