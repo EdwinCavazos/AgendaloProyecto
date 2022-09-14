@@ -1,0 +1,142 @@
+
+
+#cal-header{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+i{
+  font-size: 18px;
+}
+
+.month-year{
+  font-size: 18px;
+  font-weight: bold;
+  display: inline;
+}
+
+
+.carrito{
+  padding-right: 5px;
+  padding-top: 5px;
+  width: 40px;
+  padding-left: 10px;
+ }
+
+ body{
+	background: #4568DC;
+    background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
+    background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+}
+.submit_fecha{
+margin: 0 auto;
+ 
+ 
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+
+   border: none;
+   padding: 10px; 
+   width: 100%; 
+    text-align: center;
+ 
+   
+
+}
+.container{
+  background: #fff;
+  max-width: 350px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  margin: 50px auto;
+}
+.hour-container{
+  display: flex;
+  background-color: white;
+  margin: 0 auto;
+  
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+.hours-service{
+  display: flex;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+
+
+.title {
+  text-align: center;
+  color: #444; } 
+
+.calendar {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-size: 14px;
+  color: #444; 
+  padding: .5em 0;
+  
+  
+ } 
+  .calendar__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center; 
+    align-items: center;
+    padding: 0 2em;
+    font-size: 1.2em;
+    text-transform: uppercase; }
+  .calendar__prev, .calendar__next {
+    color: #C7F464;
+    cursor: pointer;
+    font-size: 1.3em; }
+  .calendar__prev {
+    margin: auto;
+   }
+  .calendar__next {
+    margin: auto; }
+  .calendar__week, .calendar__dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+     }
+  .calendar__month, .calendar__year {
+    padding: .5em 1em; }
+  .calendar__item {
+    text-align: center;
+    line-height: 2; }
+ 
+.calendar__last-days {
+    opacity: .3; }
+.calendar__dates{
+  cursor: pointer;
+
+}
+   
+.calendar__item:hover{
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  width: 50%;
+  margin: auto;
+}
+.hours-service:hover{
+  background-color: blue;
+  color: white;
+
+}
