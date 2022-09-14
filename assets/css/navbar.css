@@ -1,0 +1,15 @@
+.carrito{
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+.desplegable{
+    background-color: #297bf5;
+}
+.desplegableTexto{
+    font-weight: bold;
+}
+.desplegableTexto:hover{
+    background-color: #47CDFC;
+}
