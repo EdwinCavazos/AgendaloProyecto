@@ -1,18 +1,80 @@
 
 
 
+/* Navbar */
+
 #navbar {
     background-color: #3E66FB
-} */
+}
+
+.navbar a {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: white !important;
+}
+
+.navbar-light {
+    position: relative;
+    top: 0px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5c6568;
+}
+
+.carrito {
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.desplegable {
+    background-color: #297bf5;
+}
+.desplegableTexto {
+    font-weight: bold;
+}
+
+.desplegableTexto:hover {
+    background-color: #47cdfc;
+}
+
+
+.bg-light {
+    background-color: #798b91 !important;
+    color: #000 !important;
+}
+
+.logo {
+    position: relative;
+    top: 10px !important;
+    width: 120px;
+}
+
+#nava {
+    position: relative;
+    left: 400px !important;
+    padding: 20px;
+}
+
+#rowloc {
+    display: flex;
+    background-color: #297bf52b;
+    flex-flow: row wrap;
+}
+
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
+    background: #4568dc;
+    background: -webkit-linear-gradient(to right, #8fc1ec, #4968ce);
+    background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+    
 }
 
 /* SLIDER DE IMAGENES */
 
- .slide {
+.slide {
     margin-top:10px;
 }
 
@@ -22,24 +84,80 @@ body {
 } 
 
 
-#carouselCategorias {
+#carouselExampleControls img{
     width: 100%;
     height: 15rem;
 }
 
-#fondoredondo {
-    background-color: #a9ccfd ;
-    box-shadow: 15px 15px 15px 15px rgba(1, 1, 1, 0.151);
-    border-radius: 15px;
-}
+
 
 .Carrusel{
-    box-shadow: 0px 10px 10px rgba(11, 24, 124, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    }
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+
+/* Locales */
+
+
+#cardLocal  {
+    margin: 10px;
+    margin-left: 60px;
     
-    .carousel-inner {
-    border-radius: 10px;
-      /* background-color: rgb(0, 123, 246); */
-    /* overflow: hidden; */
+    
+}
+
+@media (max-width:412px){
+    #cardLocal{
+        margin: auto;
+        width: 388px;
+        margin-top: 25px;
+        margin-bottom: -2px;
+        border-radius: 1%;
+        margin-left: 54px;
     }
+}
+
+
+
+/*  */
+/*  */
+
+#mapa {
+    display: flex;
+    /* color: white; */
+    justify-content: center;
+}
+  
+  .map-responsive {
+    overflow: hidden;
+  
+    padding-bottom: 0%;
+  
+    position: relative;
+  
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+  
+    top: 0;
+  
+    height: 100%;
+  
+    width: 100%;
+  
+    position: absolute;
+  }
+
+
+  .mapaInicio   {
+    border-radius: 15px;
+    width: 100%;
+    height: 320px;
+  }
