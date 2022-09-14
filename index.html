@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/assets/css/style.css">
 
-  <title>Navbar</title>
+  <title>Home</title>
 </head>
 
 
@@ -26,103 +26,114 @@
   <!--  -->
   <!-- Inicio de Navbar -->
   <!--  -->
-  <nav class="navbar navbar-expand-sm navbar-light" id="navbar">
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary" id="navbar">
+
     <div class="container-fluid">
-
-      <!-- Icono -->
       <a class="navbar-brand" href="#">
-        <img src="https://i.ibb.co/31N9MKk/Picsart-22-08-17-12-26-56-920.png " alt="logo" height="30">
-        <span></span>
+        <img src="https://i.ibb.co/31N9MKk/Picsart-22-08-17-12-26-56-920.png" alt="" width="150">
       </a>
-
-      <!-- Boton del menu -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- Elementos del menu colapsable -->
-
-      <div class="colapse navbar-collapse" id="menu">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item">
-            <a class="nav-link " href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de nosotros</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Categorias</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li class="dropdown-item"><a href="#"></a>Estetica</li>
-              <li class="dropdown-item"><a href="#"></a>Nutriologos</li>
-              <li class="dropdown-item"><a href="#"></a>Dentista</li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Afiliate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contactanos</a>
-          </li>
-        </ul>
-        <hr class="text-white-25">
-
+      <div class="collapse navbar-collapse justify-content-end col-md-2 col-sm-4 col-xs-6 col-lg-auto" id="navbarNav">
+        <div class="row">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Categorias</a>
+              <ul class="dropdown-menu desplegable" aria-labelledby="navbarDropdown">
+                <li class="dropdown-item desplegableTexto"><a href="#"></a>Estetica</li>
+                <li class="dropdown-item  desplegableTexto"><a href="#"></a>Nutriologos</li>
+                <li class="dropdown-item  desplegableTexto"><a href="#"></a>Dentista</li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Afiliate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inicia sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a href="perfilAgendalo.com"><img src="https://cdn-icons-png.flaticon.com/512/6378/6378141.png"
+                  alt="carrito de compras" class="carrito" /></a>
+            </li>
+            <li class="nav-item">
+              <a href="carritoAgendalo"><img src="https://cdn-icons-png.flaticon.com/512/107/107831.png"
+                  alt="carrito de compras" class="carrito" /></a>
+            </li>
+          </ul>
+        </div>
       </div>
-
     </div>
   </nav>
+
   <!--  -->
   <!-- Fin de Navbar -->
   <!--  -->
+
+  <br>
+  <br>
+  <br>
 
   <!--  -->
   <!-- Inicio Carousel -->
   <!--  -->
 
-  <div class="container-fluid col-11" id="fondoredondo">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          style="background-color: #a9ccfd" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          style="background-color:#a9ccfd" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          style="background-color:#a9ccfd" aria-label="Slide 3"></button>
+  <div class="container-fluid col-sm-9 col-12" id="fondoredondo">
+    <div class="Carrusel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            style="background-color: #a9ccfd" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            style="background-color:#a9ccfd" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            style="background-color:#a9ccfd" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#"><img src="/assets/img/des1.jpg" class="d-block w-100" alt="Barberia"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 class="text-muted">First slide label</h5>
+              <p class="text-muted">Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="/assets/img/des2.jpg" class="d-block w-100" alt="Dentista"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 class="text-muted">Second slide label</h5>
+              <p class="text-muted">Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#"><img src="/assets/img/des3.jpg" class="d-block w-100" alt="nutriologo"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5 class="text-muted">Third slide label</h5>
+              <p class="text-muted">Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a href="#"><img src="/assets/img/barberia.jpg" class="d-block w-100" alt="Barberia"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-muted">First slide label</h5>
-            <p class="text-muted">Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="#"><img src="/assets/img/dentista.jpg" class="d-block w-100" alt="Dentista"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-muted">Second slide label</h5>
-            <p class="text-muted">Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="#"><img src="/assets/img/nutriologo.jpg" class="d-block w-100" alt="nutriologo"></a>
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-muted">Third slide label</h5>
-            <p class="text-muted">Some representative placeholder content for the third slide.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:#a9ccfd"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
   <!--  -->
@@ -136,24 +147,47 @@
   <!--  -->
   <section>
     <br>
-    <div class="container">
-      <h2>
+    <br>
+
+    <h2>
+      <strong>
         <center>Categorias</center>
-      </h2>
-      <div class="carousel slide" data-bs-ride="carousel">
-        <div id="carouselCategorias" class="carousel-inner">
-          <div id="carouselCategorias" class="carousel-item active">
-            <img src="/assets/img/barberia.jpg" class="d-block w-100" alt="...">
+      </strong>
+    </h2>
+
+    <br>
+
+    <div class="container-fluid col-sm-8 col-11">
+      <div class="Carrusel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/categoria1.jpg" class="d-block w-100" alt="Nutriologo">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/categoria2.jpeg" class="d-block w-100" alt="Estetica">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/categoria3.jpeg" class="d-block w-100" alt="tatto">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/categoria4.jpg" class="d-block w-100" alt="spa">
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/categoria5.jpg" class="d-block w-100" alt="dentista">
+            </div>
           </div>
-          <div id="carouselCategorias" class="carousel-item">
-            <img src="/assets/img/dentista.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div id="carouselCategorias" class="carousel-item">
-            <img src="/assets/img/nutriologo.jpg" class="d-block w-100" alt="...">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
-    </div>
   </section>
   <!--  -->
   <!-- Fin categorias -->
@@ -163,16 +197,40 @@
   <!--  -->
   <!-- Inicio Locales -->
   <!--  -->
-  <section>
-    <br>
-    <div class="container">
-      <h2>
-        <center>Locales</center>
-      </h2>
 
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 15rem;">
+  <div class="card">
+    <div class="facefront">
+      <img src="/assets/img/barberia.jpg">
+      <h3>Donia pelos</h3>
+    </div>
+
+    <div class="faceBack">
+      <h3>Donia pelos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos porro quae odit mollitia fugiat ea natus
+        excepturi repellat! Perspiciatis magni harum laborum iste quisquam similique!</p>
+      <div class="link">
+        <a href="#">Detalles</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <section>
+    <br>
+
+    <h2>
+      <center>Locales</center>
+    </h2>
+
+
+
+    <div class="container" id="locales">
+
+      <div class="d-flex row-cols-xm-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-5
+      ">
+
+        <div class="col-sm-3">
+          <div class="card">
             <img class="card-img-top" src="/assets/img/barberia.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Barberia new style</h5>
@@ -181,29 +239,125 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 15rem;">
-            <img class="card-img-top" src="/assets/img/dentista.jpg" alt="Card image cap">
+
+        <div class="col-sm-3">
+          <div class="card">
+            <img class="card-img-top" src="/assets/img/barberia.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Sonrisa perfecta</h5>
-              <p class="card-text">Clinica dental integral para toda la familia.</p>
+              <p class="card-text">Clinica dental con servicios integrales al servicio de tu familia .</p>
               <a href="#" class="btn btn-primary">Ver</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 15rem;">
+
+        <div class="col-sm-3">
+          <div class="card">
             <img class="card-img-top" src="/assets/img/nutriologo.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">No mas kilos</h5>
               <p class="card-text">Clinica integral enfocada en que logres tus metas</p>
               <a href="#" class="btn btn-primary">Ver</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section> -->
+
+
+
+
+  <!--  -->
+  <!-- Comentarios y mapa -->
+  <!--  -->
+  <!-- <section>
+
+    <br>
+    <br>
+
+    <div class="container ">
+      <div class="row" id="mapa">
+        <div class="col">
+          <h3 class="text-center">Nuestros clientes hablan por nosotros</h3>
+          <br>
+          <div id="disqus_thread"></div>
+          <script src="/assets/js/comentarios.js"></script>
+        </div>
+
+
+        <div class="col">
+          <div class="container">
+            <div class="map-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4"></div><iframe class="mapaInicio"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59726.312824561435!2d-103.37043262442579!3d20.673868619880114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b18cb52fd39b%3A0xd63d9302bf865750!2sGuadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1662623701994!5m2!1ses-419!2smx"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
 
   </section>
-  <br><br>
+  <br><br> -->
   <!--  -->
   <!-- Fin Locales -->
   <!--  -->
+
+
+  <!-- FOOTER -->
+  <!-- <footer class="w-100 py-4 flex-shrink-0">
+    <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        <div class="col-lg-4 col-md-6">
+          <h5 class="h1 text-white">FB.</h5>
+          <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt.</p>
+          <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary"
+              href="#">Bootstrapious.com</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Quick links</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Quick links</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-white mb-3">Newsletter</h5>
+          <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt.</p>
+          <form action="#">
+            <div class="input-group mb-3">
+              <input class="form-control" type="text" placeholder="Recipient's username"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-primary" id="button-addon2" type="button"><i
+                  class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+
+  <br>
+  <br>
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
 
