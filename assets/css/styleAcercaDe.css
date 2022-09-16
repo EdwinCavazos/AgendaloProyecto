@@ -1,0 +1,43 @@
+.alineamiento{
+    padding-top: 30px;
+}
+.alinea{
+    vertical-align: text-bottom; 
+}
+.footer{
+    background-color: #000000!important;
+}
+
+.imagen{
+    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    
+}
+.navbar-nav{
+    right: 0px !important;
+    left: auto !important;
+}
+.carrito{
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+.desplegable{
+    background-color: #297bf5;
+}
+.desplegableTexto{
+    font-weight: bold;
+}
+.desplegableTexto:hover{
+    background-color: #47CDFC;
+}
+.texto-footer{
+    color: white !important;
+}
+body {
+    background: #a8bcff;
+    background: -webkit-linear-gradient(to right,  #cee8ff, #b3c3ff);
+    background: linear-gradient(to right, #cee8ff, #b3c3ff);
+    font-family: 'Montserrat', sans-serif;
+}
