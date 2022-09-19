@@ -315,3 +315,7 @@ input {
     border-radius: 10px;
     font-weight: bold;
 }
+.fotoPerfil{
+    width: 200px;
+    border-radius: 100px;
+}
