@@ -1,0 +1,242 @@
+.carrito{
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    padding-left: 10px;
+}
+.desplegable{
+    background-color: #297bf5;
+}
+.desplegableTexto{
+    font-weight: bold;
+}
+.desplegableTexto:hover{
+    background-color: #47CDFC;
+}
+
+input#abrir-cerrar {
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+
+label[for="abrir-cerrar"] {
+    font-size: 35px;
+    cursor:pointer;
+    padding: 1rem;
+    color:rgb(0, 0, 0);
+    display:inline-block;
+    width:100%;
+
+}
+
+.cerrar {
+    display:none;
+}
+
+#sidebar {
+    width:0;
+}
+
+#contenido {
+    margin-left:0;
+}
+
+input#abrir-cerrar:checked ~ #sidebar {
+    width:300px;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+    margin-left:300px;
+    transition: margin-left .4s;
+}
+
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
+    display:inline;
+}
+
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
+    display:none;
+}
+
+.sidebar {
+    position: fixed;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 15px rgba(1, 1, 1, 0.151);
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+   
+
+}
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+.imagenPerfil{
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 30px;
+    vertical-align: text-bottom;
+}
+.imagenLista{
+    width: 40px;
+}
+.textoLista{
+    text-align: center;
+}
+.abrir{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cerrar{
+    font-size: 20px;
+    font-weight: bold;
+}
+.imagenListaAgenda{
+    width: 40px;
+    height: 36px;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.menuAgenda{
+    background-color: #2E88C7;
+}
+
+
+.numFecha{
+    font-size: 30px;
+    color: black !important;
+}
+a{
+    text-decoration: none;
+    padding-bottom: 10px
+ }
+.card-1{
+    padding-bottom: 40px !important;
+    padding-left: 100px;
+    padding-right: 50px;
+    border-radius: 25px;
+}
+.textoEmpresa{
+     color: #36A8FE; 
+}
+body {
+     background: #4568DC; 
+     background: -webkit-linear-gradient(to right,  #8fc1ec, #a0b6ff);
+    background: linear-gradient(to right, #b7d9ff, #b0d0ff); 
+    font-family: 'Montserrat', sans-serif;
+}
+.card-body{
+    
+    border-radius: 20px !important;
+     box-shadow: 15px 15px 15px 15px rgba(1, 1, 1, 0.151); 
+}
+.card{
+    border-radius: 20px !important;
+ box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, 0.2); 
+    -webkit-transition:all .3s ease;
+}
+.card:hover{
+
+    -webkit-transform:scale(1.05);
+}
+
+a{
+    color: black;
+}
+.botonCancelarCita{
+    background-color: #6ea0fd;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-transition:all .2s ease;
+
+}
+.botonCancelarCita:hover{
+    background-color:  #266ff7;
+    -webkit-transform:scale(1.1);
+    font-weight: bold;
+}
+.administracion-body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.buttons{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.citas-clientes-body{
+    margin: 10px 10px 10px 10px;
+     width: 18rem; 
+} 
