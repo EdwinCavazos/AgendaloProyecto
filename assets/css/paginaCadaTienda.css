@@ -192,3 +192,17 @@ hr.hrInferior {
   height: 220px;
   border-radius: 15px;
 }
+
+.textoAladoMapa{
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%; 
+  margin-left: 12px;
+  margin-right: 12px ;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <!-- Montserrat Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- CSS local -->
+    <link rel="stylesheet" href="/assets/css/indexestilos.css">
+
+    <!-- Script -->
+    <script src="/assets/js/jquery-3.6.1.js"></script>
+    <script src="/assets/js/paginaPrincipal.js"></script>
+
+</head>
+<body>
+<header>
+  <!--*=============-->
+<!-- *NAVBAR START -->
+<!--*=============-->
+<nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-primary" id="navbar">
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://i.ibb.co/31N9MKk/Picsart-22-08-17-12-26-56-920.png" alt="" width="150">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end col-md-2 col-sm-4 col-xs-6 col-lg-auto" id="navbarNav">
+      <div class="row">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+              <a class="nav-link " href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Acerca de nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                  <ul class="dropdown-menu desplegable" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-item desplegableTexto"><a href="#"></a>Estetica</li>
+                      <li class="dropdown-item  desplegableTexto"><a href="#"></a>Nutriologos</li>
+                      <li class="dropdown-item  desplegableTexto"><a href="#"></a>Dentista</li>
+                  </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Afiliate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicia sesión</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <a href="perfilAgendalo.com"><img src="https://cdn-icons-png.flaticon.com/512/6378/6378141.png" alt="carrito de compras" class="carrito" /></a>
+          </li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--=============-->
+<!-- NAVBAR END  -->
+<!--=============-->
+</header>
+
+
+
+<!-- *Carrusel  START  -->
+<div class="container-flex">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" data-bs-interval="20000">
+      <div class="carousel-item active ">
+        <img src="/assets/imgs/banner1.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Digitalizando y conectando a las personas</h1>
+            <p>¡Innovando la creación, reserva y agenda de servicios cotidianos!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">¡Registrate hoy!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="20000">
+        <img src="/assets/imgs/cliente.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Expansión Digital</h1>
+            <p>¡Otorgale presencia digital a tu negocio o empresa!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Aprende cómo</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="20000">
+        <img src="/assets/imgs/promocion.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Promociones y beneficios continuos</h1>
+            <p>Agendando tu cita online tendrás ventajas y descuentos extra!</p>
+            <p><a class="btn btn-lg btn-primary" href="#">¡Descubre aqui!</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Carrusel END     -->
+
+<br>
+<br>
+
+<main>
+<!-- *TARJETA INTRO START -->
+<div class="tarjetaIntroduccion">
+  <div class="container">
+    <div class="card mb-3 intro">
+      <div class="row g-0">
+        <div class="col-md-2 col-sm-2">
+          <img src="/assets/imgs/agendaloIcon.jpeg" class="img-fluid iconoAgendalo" alt="iconoAgendalo">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title titulo-tarjetita">¿Agéndalo?</h5>
+            <p class="card-text texto-tarjetita">Agéndalo es un sistema de citas online creado y desarrollado con el propósito de revolucionar y digitalizar la agenda de citas y servicios mediante las tecnologías más modernas para conectar a las personas y satisfacer diferentes necesidades del día a día.</p>
+            <p class="card-text texto-muteado"><small class="text-muted">Introverteam || Todos Los Derechos Reservados.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- TARJETA INTRO END -->
+
+<br>
+<br>
+
+
+<!-- *TEXTO CATEGORÍAS START-->
+<div class="container">
+  <div class="categoriasBox">
+    <div class="text-center">
+      <h3>CATEGORÍAS</h3>
+    </div>
+  </div>
+</div>
+<!-- TEXTO CATEGORÍAS END -->
+
+<br>
+<!-- *BANNER LOCALES START -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 col-md-8">
+      <a href="https://www.youtube.com/watch?v=V7__Bz9gr3s" target="_blank">
+        <img src="/assets/imgs/categoriasClick.png" class="img-fluid categoriaEnlace">
+      </a>
+    </div>
+  </div>
+</div>
+<!-- BANNER LOCALES END -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- *PROMOCIONADOS START -->
+<div class="container-flex">
+  <div class="promocionados">
+    <div class="textoPromocion">
+      <h3 class="text-center textoPromo">SERVICIOS MÁS POPULARES</h3>
+    </div>
+    <div class="row">
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/newrose.jpg" class="img-fluid imagenPromo" alt="">
+        </div>
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/doctor.jpg"  class="img-fluid imagenPromo" alt="">
+        </div>
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/barbershop.jpeg" class="img-fluid imagenPromo" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/salonbeauty.jpg" class="img-fluid imagenPromo" alt="">
+        </div>
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/dentiix.png"  class="img-fluid imagenPromo" alt="">
+        </div>
+        <div class="col-4 g-5 d-flex justify-content-center">
+          <img src="/assets/imgs/promocionados/pharamcia.jfif" class="img-fluid imagenPromo" alt="">
+        </div>
+      </div>
+    <div>
+      <br>
+      <br>
+      <br>
+  </div>
+</div>
+<!-- PROMOCIONADOS END-->
+
+<br>
+<br>
+<br>
+
+<!-- *TEXTO CATEGORÍAS START-->
+<div class="container-fluid">
+  <div class="resenasBox">
+    <div class="text-center">
+      <h3>Nuestros clientes hablan por nosotros</h3>
+    </div>
+  </div>
+</div>
+<!-- TEXTO CATEGORÍAS END -->
+
+<br>
+
+<!-- ===================== -->
+<!-- Sección Reviews START -->
+<!-- ====================  -->
+<div class="container">
+  <div class="reviewCards">
+    <div class="row row-cols-xm-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 g-5">
+          <!-- card 1 -->
+            <div class="col-sm">
+              <div class="card h-100 text-center tarjetasReview">
+                <div class="card-body">
+                    <h5 class="card-title">Roca China😎 </h5>
+                    <p class="card-text">
+                      Cambiaron mi vida les estoy agradecido eternamente. Elit Commodi quia dicta officiis deleniti sapiente? Molestias, rerum repellendus fuga illum, corporis minus eos, enim reprehenderit corrupti voluptatibus placeat ex ratione beatae!
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <img src="/assets/imgs/resenasIcon/rocachina.png" class="iconoUserReview">
+                    </div>
+
+                </div>
+              </div>
+            </div>
+          <!-- card 2 -->
+          <div class="col-sm">
+            <div class="card h-100 text-center tarjetasReview">
+              <div class="card-body">
+                  <h5 class="card-title">Gato Depre </h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, cupiditate impedit. Quis reprehenderit doloremque mollitia corrupti, fugiat ipsam eaque quam explicabo id fuga illo illum dolor optio laborum fugit perspiciatis!</p>
+                  <div class="d-flex justify-content-center">
+                      <img src="/assets/imgs/resenasIcon/gato1.png" class="iconoUserReview">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Mapa Card -->
+          <div class="col-sm">
+            <div class="card h-100 text-center tarjetaMapa">
+              <div class="card-body">
+                  <h5 class="card-title titleMapa">🎆¡Cada vez más cerca de ti!🎉</h5>
+                  <p class="card-text textoMapa">🏠Nuestras Oficinas🏢</p>
+                  <div class="zz">
+                    <iframe class="mapaGoogle justify-content-center img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.626232375342!2d-99.20889888478698!3d19.42854888688661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201f60a8f816b%3A0xca7e9b8e9149aac2!2sGoogle%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1663568220230!5m2!1ses-419!2smx" style="border:0;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+<!-- =================== -->
+<!-- Sección Reviews END -->
+<!-- =================== -->
+
+<br>
+<br>
+<br>
+
+</main>
+<!-- *FOOTER START -->
+<footer class="text-center text-lg-start text-muted footer">
+  <div>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+    <a href="" class="me-4 text-reset">
+
+    </a>
+  </div>
+  <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+
+    <div class="container d-flex justify-content-center">
+      <img src="https://i.ibb.co/31N9MKk/Picsart-22-08-17-12-26-56-920.png" alt="" width="250">
+    </div>
+    <div class="texto-footer">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4 text-ligth fs-20">
+              <i class="fas fa-gem me-3"></i>¿Qué es Agéndalo?
+            </h6>
+            <p>
+              Agéndalo es una web que te permite agendar citas a tus negocios cercanos desde la comodidad de tu mano,
+              ¿Cansado de llamar para reservar? Prueba nuestra web!.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-ligth">
+              Regístrate
+            </h6>
+            <p class="text-ligth">
+              <a href="#!" class="text-ligth">Inicia sesión como cliente</a>
+            </p>
+            <p>
+            <p>
+              <a href="#!" class="text-ligth">Inicia sesión como afiliado</a>
+            </p>
+            <p>
+
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 text-ligth">Contacto</h6>
+            <a href="mailto:agendalocontacto@gmail.com">Envíanos un correo</a>
+
+
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+  </section>
+  <!-- Section: Links  -->
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+<!-- Script Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- Script Bootstrap -->
+</body>
+</html>
+
+
+
+
