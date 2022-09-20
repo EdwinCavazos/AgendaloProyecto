@@ -1,3 +1,12 @@
+
+/*! BODY Obligatorio */
+body{
+  padding-top: 69px; 
+      font-family: "Montserrat", sans-serif;
+      
+}
+/* ! BODY obligatorio */
+
 /* * BACKGROUND DEGRADADO */
 body{
   background: #4568DC;
@@ -109,7 +118,7 @@ main > .container{
   border-radius: 30px;
 }  
 
-.product-item.card.h-100
+.product-item.card
 {
   border-radius: 15px;
 }
