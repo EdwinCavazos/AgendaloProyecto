@@ -1,0 +1,73 @@
+/* !BODY obligatorio */
+body{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 60px;
+  }
+  /* !BODY obligatorio */
+  
+  /* body {
+    background-image:url("/assets/imgs/backgrounds/conjunto-garabatos-primavera-blanco-negro-lindo-conjunto-elementos-pascua-imagenes-predisenadas-primavera_308665-455.jpg");
+    background-position: center center;
+    background-size: no-repeat;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  } */
+  
+  /* * BACKGROUND DEGRADADO */
+  body{
+    background: #4568DC;
+      background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
+      background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+    
+  }
+  /* * BACKGROUND DEGRADADO */
+  
+  
+  /* *NAVBAR */
+  
+  .carrito{
+      padding-right: 5px;
+      padding-top: 5px;
+      width: 40px;
+      padding-left: 10px;
+    }
+    .desplegable{
+      background-color: #297bf5;
+    }
+    .desplegableTexto{
+      font-weight: bold;
+    }
+    .desplegableTexto:hover{ 
+      background-color: #47CDFC;
+    }
+    
+    /* *NAVBAR END */
+  
+  
+
+
+  /* footer */
+.footer{
+    background-color: #000000!important;
+    background-position: center center;
+    background-size: no-repeat;
+    background-size:cover;
+
+    padding-top:35px;
+    padding-bottom:35px;
+    
+  }
+  /* footer */
+
+
+
+.imagen404{
+    
+    /* background-image:url(/assets/imgs/404.png); */
+    width: 100%;
+
+}
+
