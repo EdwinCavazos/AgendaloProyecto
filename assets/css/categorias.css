@@ -210,39 +210,91 @@ color: rgb(255, 255, 255);
 
 /* * ZONA INFERIOR MAPA START */
 
+
+
 .mapaAsociados{
   background-color: #000000;
   color: #ffffff;
   padding-top: 1%;
   padding-bottom: 1%;
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+
   box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.50);
+}
+
+.mapaGugle{
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .mapaGoogleFrame{
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  box-shadow: 0 0 15px 2px rgba(0, 8, 255, 0.5);
   margin-bottom: 25px;
-  margin-top: 5px;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  
 }
 
 .textoAladoMapa{
-  background-color: white;
-  border-radius: 10px;
+  
+  
   padding-top: 5%;
   padding-bottom: 3%;
   padding-left: 5%;
   padding-right: 5%; 
   margin-left: 12px;
   margin-right: 12px ;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  
   margin-top: 15px;
   margin-bottom: 25px;
 }
 
 /*  ZONA INFERIOR MAPA END */
 
+
+
+/* *comentarios Start */
+.resenasBox{
+  background-color: #000000;
+  color: #ffffff;
+
+  /* background-color: #000000;
+  color: #ffffff; */
+
+  
+  width: 100%;
+  
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+   
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  
+  box-shadow: 0 0 15px 2px rgba(42, 0, 250, 0.474);
+}
+
+/* comentarios END */
+
+
+/* *DISQUS START*/
+
+.comentariosDisqus{
+  background-color: #ffffff;
+  
+
+  box-shadow: 0 0 15px 2px rgba(42, 0, 250, 0.474);
+
+  padding: 1%;
+}
+
+/* DISQUS END */
 
 
 /* footer */
