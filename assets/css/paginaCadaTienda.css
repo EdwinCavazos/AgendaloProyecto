@@ -1,3 +1,9 @@
+/* !BODY obligatorio */
+body{
+  font-family: "Montserrat", sans-serif;
+}
+/* !BODY obligatorio */
+
 /* body {
   background-image:url("/assets/imgs/backgrounds/conjunto-garabatos-primavera-blanco-negro-lindo-conjunto-elementos-pascua-imagenes-predisenadas-primavera_308665-455.jpg");
   background-position: center center;
@@ -76,18 +82,54 @@ box-shadow: 0px 10px 10px rgba(11, 24, 124, 0.5);
 .container.tipoServicio{
   padding-left: 25%;
   padding-right: 25%;
+  text-decoration: none;
+}
+
+.serviciostxt{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  
+}
+
+.clickServicio{
+  text-decoration: none;
+  color: #000000;
+}
+
+.serviciosLista:hover {
+  transform: scale(1.1);
+  
 }
 
 .serviciosLista{
+  transition: transform 0.2s ease;
+}
+
+.lineaDivisoria{
+  margin-left: 5% ;
+  margin-right:5%  ;
+  border-top: 10px solid black;
+  border: solid 2px;
+} 
+
+
+.serviciosLista{
     margin-bottom: 10%;
-    background-color: #A9CCFD;
+    background-color: #ffffff;
     border-radius: 10px;
     width:100%;
-    text-align: center;
     
+    text-decoration: none;
     
+    box-shadow: 0px 0px 5px 1px rgba(0, 55, 255, 0.5);
     
     font-weight:700   ;
+
+  background-image:url(/assets/imgs/backgroundContactosCaja.jpg);
+  
+  background-size: no-repeat;
+  background-size:cover;
 }
 /* *COLUMNA 1 Servicios  END */
 
@@ -103,25 +145,47 @@ box-shadow: 0px 10px 10px rgba(11, 24, 124, 0.5);
 .horarioLaboral{
   margin-top: 10%;
   border-radius: 10px;
-
+  
   background-color: #ffffff !important;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 
 }
 
+.serviciostxt2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  
+}
+
 .horariosLista{
-  background-color: #E7E7F3;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   width: 100%;
   text-align: center;
+  background-color: white;
+  /* background-image:url(/assets/imgs/backgroundContactosCaja\ -\ copia.jpg);
+  
+   background-size: no-repeat;
+   background-size:cover; */
+
+  
+
+  color: rgb(0, 0, 0);
+
+  
   
 }
 /* *COLUMNA 2 Servicios END */
 
 .contactoCaja{
- background-color: #293ef84c;
+ background-image:url(/assets/imgs/backgroundContactosCaja.jpg);
+ background-position: center center;
+  background-size: no-repeat;
+  background-size:cover;
  border-radius: 5px;
+ 
  
 } 
 
@@ -206,3 +270,53 @@ hr.hrInferior {
   margin-top: 15px;
   margin-bottom: 25px;
 }
+
+.textoCarrusel{
+  font-size: 20px;
+  font-weight: 900;
+  text-shadow:  2px 2px rgb(0, 0, 0);
+}
+
+
+/* *Nuestros clientes Start */
+.resenasBox{
+  background-color: #000000;
+  color: #ffffff;
+
+  /* background-color: #000000;
+  color: #ffffff; */
+
+  
+  width: 100%;
+  
+  
+  border-radius: 10px;
+   
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  
+  box-shadow: 0 0 15px 2px rgba(4, 4, 4, 0.435);
+}
+
+/* Nuestros Clientes END */
+
+
+/* *DISQUS START*/
+
+.comentariosDisqus{
+  background-color: #ffffff;
+  border-top-left-radius:  15px;
+  border-top-right-radius:  15px;
+
+  box-shadow: 0 0 15px 1px rgba(4, 4, 4, 0.435);
+
+  padding: 5%;
+}
+
+/* DISQUS END */
+
+/* footer */
+.footer{
+  background-color: #000000!important;
+}
+/* footer */

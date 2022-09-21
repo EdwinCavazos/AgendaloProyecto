@@ -1,3 +1,12 @@
+
+/*! BODY Obligatorio */
+body{
+  padding-top: 69px; 
+      font-family: "Montserrat", sans-serif;
+      
+}
+/* ! BODY obligatorio */
+
 /* * BACKGROUND DEGRADADO */
 body{
   background: #4568DC;
@@ -21,7 +30,7 @@ body{
 
 
 
-/* *NAVBAR */
+/* *NAVBAR start */
 
 .carrito{
   padding-right: 5px;
@@ -44,17 +53,10 @@ body{
 
 
 
-.miniaturas {
-  max-width: 100%;
-}
 
-.card:hover {
-  transform: scale(1.1);
-}
 
-.card {
-  transition: transform 0.2s ease;
-}
+
+/* *CARRUSEL START */
 
 
 
@@ -71,162 +73,30 @@ body{
 }
 
 
-
 .patrocinados {
   
-    letter-spacing: 0.1em;
-   
-    color: rgb(255, 255, 255); 
+  letter-spacing: 0.1em;
+ 
+  color: rgb(255, 255, 255); 
 }
 
 .parrafitos {
-  
-  letter-spacing: 0.01em;
 
-  color: rgb(255, 255, 255); 
-  
-}
+letter-spacing: 0.01em;
 
-.container.tarjetas {
-  padding: 3%;
+color: rgb(255, 255, 255); 
+
 }
 
 
-main > .container{
-    padding: 15px;
-}
-
-.col{
-  max-width: 75%;
-}
-
-
-
-.container-flex.p-{
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 30px;
-}  
-
-.product-item.card.h-100
-{
-  border-radius: 15px;
-}
-
-.card.h-100{
-  background-color: rgba(255, 255, 255, 0.845);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-}  
-
-.miniaturas {
-  border-radius: 16px;
-  width: 95%;
-  align-self: center;
-  margin-top: 7px;
-}
-
-.card-title {
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
-}
-
-.card-text{
-  color: black;
-  text-align: center;
-}
-
-.box {
-  font-stretch: expanded; 
-  background-color: rgba(255, 255, 255, 0.94) ;
-  border-radius:5px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  padding-left:  42%;
-  padding-right: 42%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  
-  
-} 
-
- .separadorListaTiendas {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-} 
-
-
-  
-.mapa {
-  top: none;
-}
-  
-/* .text-center{
-  font-weight: bold;
-} */
-
-.w-100.p-3.bg-primary.text-white, .w-100.p-3.bg-info.text-white
-{
-  border-radius: 15px;
-}
-/* .card.h-100.shadow-sm.p-2{
-  border-radius: 50px
-}
-
-.miniaturas{
-  border-radius: 45px;
-} */
-
-
-/* ======================FILTROS CATEGORY START */
-
-.products-list{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.products-list .product-item{
-  width: 100%;
-  margin-left: 0;
-  margin-bottom: 0;
-  box-shadow: 0px 0px 20px 1px rgba(14, 1, 255, 0.547);
-
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  align-self: flex-start;
-
-  transition: all .4s;
-}
-
-.category_list{
-  border-radius: 10px;
-  display: flex;
-}
-
-
-
-
-/* ======================FILTROS CATEGORY END */
+/* CARRUSEL END */
 
 
 
 
 
 
-
-
-
-
-
-
+/* *LISTA DE TIENDAS Y BOTONES FILTROS start */
 .listaTiendas{
   background-color: #000000;
   padding-top: 1%;
@@ -247,79 +117,188 @@ main > .container{
   border-bottom-right-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.894);
 }
+/* LISTA DE TIENDAS Y BOTONES FILTROS end */
 
-/* .col-lg-auto.col-sm-2.col-xs-1.botonx{
+
+
+
+
+
+/* *TARJETAS DE SERVICIOS start */
+
+
+
+.miniaturas {
+  border-radius: 16px;
+  width: 95%;
+  align-self: center;
+  margin-top: 7px;
+}
+
+
+
+.card-title{
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+.card-text{
+  color: black;
+  text-align: center;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+/* TARJETAS DE SERVICIOS end */
+
+
+
+
+/* ======================FILTROS CATEGORY START */
+
+.products-list{
+ 
+  display: flex;
   
-  
-} */
+}
+
+.products-list .product-item{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  align-self: flex-start;
+
+  transition: all .4s; 
+}
+
+.category_list{
+  border-radius: 10px;
+  display: flex;
+}
+
+.cartitaBebe{
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px rgba(60, 0, 255, 0.5);
+}
+
+
+
+
+/* ======================FILTROS CATEGORY END */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* * ZONA INFERIOR MAPA START */
+
+
 
 .mapaAsociados{
   background-color: #000000;
   color: #ffffff;
   padding-top: 1%;
   padding-bottom: 1%;
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+
   box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.50);
+}
+
+.mapaGugle{
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .mapaGoogleFrame{
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  box-shadow: 0 0 15px 2px rgba(0, 8, 255, 0.5);
   margin-bottom: 25px;
-  margin-top: 5px;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  
 }
 
 .textoAladoMapa{
-  background-color: white;
-  border-radius: 10px;
+  
+  
   padding-top: 5%;
   padding-bottom: 3%;
   padding-left: 5%;
   padding-right: 5%; 
   margin-left: 12px;
   margin-right: 12px ;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.50);
+  
   margin-top: 15px;
   margin-bottom: 25px;
 }
 
-/* * ZONA INFERIOR MAPA END */
+/*  ZONA INFERIOR MAPA END */
 
 
 
-/* .col-lg-1.col-md-1.col-sm-1.col-xs-1.category_item.btn.btn-md.btn-light.btn-outline-dark.Uno{
-  space-between: 10px;
+/* *comentarios Start */
+.resenasBox{
+  background-color: #000000;
+  color: #ffffff;
 
-} */
+  /* background-color: #000000;
+  color: #ffffff; */
 
-
-/* .wrap{
-	max-width: 1100px;
-	width: 100%;
-	margin: auto;
+  
+  width: 100%;
+  
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+   
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  
+  box-shadow: 0 0 15px 2px rgba(42, 0, 250, 0.474);
 }
 
-.wrap > h1{
-	color: #494B4D;
-	font-weight: 400;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin: 15px 0px;
+/* comentarios END */
+
+
+/* *DISQUS START*/
+
+.comentariosDisqus{
+  background-color: #ffffff;
+  
+
+  box-shadow: 0 0 15px 2px rgba(42, 0, 250, 0.474);
+
+  padding: 1%;
 }
 
-.wrap > h1:after{
-	content: '';
-	width: 100%;
-	height: 1px;
-	background: #C7C7C7;
-	margin: 20px 0;
-}
+/* DISQUS END */
 
-.store-wrapper{
-	display: flex;
-	flex-wrap: wrap;
-} */
+
+/* footer */
+.footer{
+  background-color: #000000!important;
+}
+/* footer */
