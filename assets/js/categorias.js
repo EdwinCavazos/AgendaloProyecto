@@ -24,7 +24,7 @@ $(document).ready(function(){
 		// MOSTRANDO PRODUCTOS =========================
 		function showProduct(){
 			$('.product-item[category="'+catProduct+'"]').show();
-			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)'),('display', 'block');
+			$('.product-item[category="'+catProduct+'"]').css('transform', 'scale(1)');
 		} setTimeout(showProduct,400);
 	});
 
