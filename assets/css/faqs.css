@@ -1,0 +1,141 @@
+/*! BODY Obligatorio */
+body{
+    padding-top: 69px; 
+        font-family: "Montserrat", sans-serif;
+  text-align: center center !important;
+  }
+  /* ! BODY obligatorio */
+  
+  * BACKGROUND DEGRADADO */
+  body{
+      background: #4568DC;
+        background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
+        background: linear-gradient(to right, #2c7fdf, #b0d0ff);
+        
+    }
+    /* * BACKGROUND DEGRADADO
+  
+  
+  /*! BACKGROUND IMG BLUR */
+    body {
+    background-image:url("/assets/imgs/Guadalajara-Jalisco-Fotografía-Miguel-Angel-Victoria.png");
+    background-position:center center;
+    background-size: no-repeat;
+    background-size:cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  
+  }
+  /*! BACKGROUND IMG BLUR */
+    
+    
+    /* *NAVBAR */
+   
+    .carrito{
+        padding-right: 5px;
+        padding-top: 5px;
+        width: 40px;
+        padding-left: 10px;
+      }
+      .desplegable{
+        background-color: #297bf5;
+      }
+      .desplegableTexto{
+        font-weight: bold;
+      }
+      .desplegableTexto:hover{ 
+        background-color: #47CDFC;
+      }
+      
+      /* *NAVBAR END */
+  
+  
+
+  .FAQs1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+   
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+
+  .icono{
+    border-radius: 300px;
+    /* width: 15%; */
+  }
+
+ .textoTitulo{
+  padding-bottom: 10px;
+ }
+ 
+ .textoSecundario{
+  padding-bottom: 20px;
+ }
+
+/* .tituloDropdown{
+  font-weight: bold;
+} */
+ 
+.valoresTexto{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.titulillos{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.valoresTitle{
+  font-size: 35px;
+}
+
+.misionTexto{
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.visionTexto{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.agendaloIcono{
+  width: 75%;
+  
+  border-radius: 300px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+  margin-right: 0;
+  margin-left: 12%;
+  
+}
+
+.infoImagen{
+  border-radius: 15px;
+  
+  width: 40%;
+  margin-left: 31%;
+  
+  @media screen {
+    width:;
+    
+  }
+}
+
+  /* footer */
+  .footer{
+    background-color: #000000!important;
+    position: static;
+  }
+  /* footer */
