@@ -6,19 +6,19 @@ body{
   }
   /* ! BODY obligatorio */
   
-  * BACKGROUND DEGRADADO */
-  body{
+  /* BACKGROUND DEGRADADO */
+  /* body{
       background: #4568DC;
         background: -webkit-linear-gradient(to right,  #8fc1ec, #4968ce);
         background: linear-gradient(to right, #2c7fdf, #b0d0ff);
         
-    }
+    } */
     /* * BACKGROUND DEGRADADO
   
   
   /*! BACKGROUND IMG BLUR */
     body {
-    background-image:url("/assets/imgs/Guadalajara-Jalisco-Fotografía-Miguel-Angel-Victoria.png");
+    background-image:url("/assets/imgs/bgGuadalajaraFaqs.png");
     background-position:center center;
     background-size: no-repeat;
     background-size:cover;
