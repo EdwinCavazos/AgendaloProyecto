@@ -43,7 +43,7 @@ const writeMonth = (month) => {
             
             let date = day + "/" + month + "/" + year;
            
-            return displayDay(date);
+            return displayDay(day,month,year);
         }
 });
 }
@@ -103,12 +103,93 @@ const setNewDate = () => {
 }
 
 
-function displayDay(days){
-    document.getElementById('date-display').innerText = days;
+function displayDay(days,month,year){
+    document.getElementById('diaDisplay').innerText = days+"/";
+    document.getElementById('mesDisplay').innerText = month+"/";
+    document.getElementById('añoDisplay').innerText = year;
 
 }
 
+let hora = document.getElementById('hours-display');
 
+hora.addEventListener("click", function(e) {
+    if (e.target && e.target.nodeName == "DIV" && e.target.classList.contains("calendar__hour") && !e.target.classList.contains("calendar__last-hours") && !e.target.classList.contains("calendar__next-hours")  ) {
+        let hour = e.target.innerHTML;
+        return displayHour(hour);
+    }
+});
+function displayHour(hours){
+    document.getElementById('display-horas').innerText = hours;
+
+}
 
 writeMonth(monthNumber);
 
+
+function displayModal(){
+let nombreNegocio = document.getElementById('NombreNegocio').innerText;
+let nombreServicio = document.getElementById('Nombre-servicio').innerText;
+let precioServicio = document.getElementById('precio').innerText;
+let dia = document.getElementById('diaDisplay').innerText;
+let mes=document.getElementById('mesDisplay').innerText;
+let horaModal = document.getElementById('display-horas').innerText;
+document.getElementById('modal-business').innerText=nombreNegocio;
+document.getElementById('modal-service').innerHTML=nombreServicio;
+document.getElementById('modal-price').innerHTML=precioServicio;
+document.getElementById('modal-day').innerHTML=dia;
+document.getElementById('modal-mes').innerHTML=mes;
+document.getElementById('modal-hour').innerHTML=horaModal;
+}
+
+//Enviar a la base de datos
+
+
+    document
+    .getElementById("btnSend")
+    .addEventListener("click", function (e) {
+       
+    let nombreNegocio = document.getElementById('NombreNegocio').innerText;
+    let nombreServicio = document.getElementById('Nombre-servicio').innerText;
+    let precioServicio = document.getElementById('precio').innerText;
+    let dia = document.getElementById('diaDisplay').innerText;
+    let mes=document.getElementById('mesDisplay').innerText;
+    let horaModal = document.getElementById('display-horas').innerText;
+
+      //Es imporante que tomemos el valor del input del formulario, y no todo el conjunto de datos. Para eso, usamos el .value para decirle que estoy recogiendo el valor que hay dentro de ese input.
+      console.log(nombreNegocio.valueOf());
+      console.log(nombreServicio.valueOf());
+      console.log(precioServicio.valueOf());
+      console.log(dia.valueOf());
+        console.log(mes.valueOf());
+        console.log(horaModal.valueOf());
+
+      //Esta es una constante llamada data, que contiene el cuerpo de la solicitud. Puedo declararla como una variable o agregarla directamente al cuerpo de mi metodo POST.
+      const data = {
+        nombre: nombreNegocio.valueOf(),
+        numero: dia.valueOf(),
+        mes: mes.valueOf(),
+        hora: horaModal.valueOf(),
+        servicio: nombreServicio.valueOf(),
+        precio: precioServicio.valueOf(),
+       
+     
+      };
+
+      //Hago un fetch a mi API, con la finalidad de postear productos nuevos.
+      fetch("http://localhost:8080/api/cita/", {
+        method: "POST", // or 'PUT'
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data), //Aqui estoy llamando a mi cuerpo de la solicitud.
+      })
+        .then((response) => response.text())
+        .then((data) => {
+          console.log("Producto Guardado:", data); //Mensaje para cuando se agreguen los datos correctamente
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    });
+  
+    //Fin de enviar a la base de datos
