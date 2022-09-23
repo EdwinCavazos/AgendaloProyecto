@@ -133,74 +133,33 @@
                 <div class="row">
                     <div class="col">
                         <div class="input-group mb-3">
-                            <input id="search" type="text" onkeyup="search()" class="form-control" placeholder="Asegurate de ingresar la fecha completa. ejemplo: 26/09/2022" aria-label="Buscar cita"
-                               >
-                           
+                            <input id="search" type="text" onkeyup="search()" class="form-control"
+                                placeholder="Asegurate de ingresar la fecha completa. ejemplo: 26/09/2022"
+                                aria-label="Buscar cita">
+
                         </div>
                         <hr>
                     </div>
                 </div>
                 <div id="citas-clientes">
+
+                    <div class="col">
+                        <h3>CITAS DE CLIENTES</h3>
+                    </div>
+
+                    <div class="col card-client">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Carlos Daniel López González</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Corte de cabello</h6>
+                                <p class="card-text date">26/09/2022</p>
+                                <a href="#" class="card-link">Ver cita</a>
+                                <a class="card-link" data-bs-toggle="modal" href="#exampleModalToggle"
+                                    role="button">Cancelar cita</a>
+                            </div>
+                        </div>
+                    </div>
                    
-                        <div class="col">
-                            <h3>CITAS DE CLIENTES</h3>
-                        </div>
-
-                    
-
-                   
-                        <div class="col card-client">
-                            <div class="card">
-                                <div class="card-body ">
-                                    <h5 class="card-title">Carlos Daniel López González</h5>
-
-                                    <h6 class="card-subtitle mb-2 text-muted">Corte de cabello</h6>
-
-                                    <p class="card-text date">26/09/2022</p>
-                                    <p class="card-text">10:00AM</p>
-                                    <a href="#" class="card-link">Ver cita</a>
-                                    <a href="#" class="card-link">Cancelar cita</a>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col card-client">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Carlos Daniel López González</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Corte de cabello</h6>
-                                    <p class="card-text date">26/09/2022</p>
-                                    <a href="#" class="card-link">Ver cita</a>
-                                    <a href="#" class="card-link">Cancelar cita</a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col card-client">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Carlos Daniel López González</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Corte de cabello</h6>
-                                    <p class="card-text date">26/09/2022</p>
-                                    <a href="#" class="card-link">Ver cita</a>
-                                    <a href="#" class="card-link">Cancelar cita</a>
-                                </div>
-                            </div>
-                            <div class="col card-client">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Carlos Daniel López González</h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">Corte de cabello</h6>
-                                        <p class="card-text date">26/09/2022</p>
-
-                                        <a href="#" class="card-link">Ver cita</a>
-                                        <a href="#" class="card-link">Cancelar cita</a>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
 
 
 
@@ -208,26 +167,77 @@
 
 
 
-
-                        </div>
-
-                    
 
 
 
                 </div>
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">
+                                        Cancelación de cita
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>¿Estas seguro de cancelar la cita?</p>
+
+                                    <label for="">Ingresar razon de cancelación a cliente</label>
+                                    <p>Agrega una nota: <input type="text" id="modal-nota"></input></p>
+                                   
 
 
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" onclick="eliminarcita()" 
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Confirmar cancelar cita</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalToggleLabel2">Confirmacion</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="/assets/IMG/404-tick.png" alt="" srcset="">
+                            <p>La cita ha sido cancelada correctamente</p>
+                          
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
 
 
+            </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                crossorigin="anonymous"></script>
-            <script src="/assets/js/perfilAfiliado.js"></script>
+
+        </div>
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+        <script src="/assets/js/perfilAfiliado.js"></script>
 </body>
 
 </html>
