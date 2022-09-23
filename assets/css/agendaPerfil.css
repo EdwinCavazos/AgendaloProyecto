@@ -227,3 +227,14 @@ a{
     -webkit-transform:scale(1.1);
     font-weight: bold;
 }
+.texto-precio{
+    font-weight: bold !important;
+    color: #266ff7 !important;
+    font-size: 15px;
+}
+.numModal{
+    font-weight: bold;
+}
+.agenda{
+    padding-left: 50px !important;
+}
